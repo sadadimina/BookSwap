@@ -8,7 +8,7 @@ Here is the screenshot:
 
 ![BookSwap](bookswap.png)
 
-📚 Book Swap App
+## 📚 Book Swap App
 
 A simple React application for swapping books with others. Users can browse available books, add their own, and request exchanges.
 
