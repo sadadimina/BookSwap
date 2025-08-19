@@ -10,7 +10,7 @@ Here is the screenshot:
 
 ## 📚 Book Swap App
 
-A simple React application for swapping books with others. Users can browse available books, add their own, and request exchanges.
+A React application for swapping books with others. Users can browse available books, add their own, and request exchanges.
 
 🚀 Features
 
