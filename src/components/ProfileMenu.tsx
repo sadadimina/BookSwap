@@ -54,7 +54,7 @@ export default function ProfileMenu({
         </DropdownMenuLabel>
         <DropdownMenuSeparator />
         <DropdownMenuItem onClick={() => navigate("/profile")}>
-          Profile
+          Edit Profile
         </DropdownMenuItem>
         <DropdownMenuItem onClick={() => navigate("/settings")}>
           Settings

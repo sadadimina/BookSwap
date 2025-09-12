@@ -25,9 +25,12 @@ export default function Header({ user, setUser }: { user: any; setUser: any }) {
 
       <div className="flex items-center gap-8">
         <nav className="flex items-center gap-6">
-          <a href="#" className="text-sm font-medium hover:text-gray-700">
-            Browse
-          </a>
+          <Link
+            to="dashboard"
+            className="text-sm font-medium hover:text-gray-700"
+          >
+            Dashboard
+          </Link>
           <a href="#" className="text-sm font-medium hover:text-gray-700">
             How It Works
           </a>
