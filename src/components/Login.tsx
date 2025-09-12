@@ -34,7 +34,7 @@ export default function Login({ setUser }: { setUser: (user: any) => void }) {
       );
       console.log("Login successful:", res.data);
       setUser(res.data);
-      localStorage.setItem("token", res.data.token);
+      localStorage.setItem("token", res.data.access_token);
       navigate("/");
       // Handle successful login (e.g., redirect, store token)
     } catch (error: any) {
